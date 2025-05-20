@@ -25,7 +25,7 @@
         nvim_command: nvim_command {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RCTRL &kp A>;
+            bindings = <&kp LGUI &kp A>;
             label = "NVIM_COMMAND";
         };
     };
